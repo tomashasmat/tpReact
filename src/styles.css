@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  background-image: "url(${fondo})";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: ;
+}
+
+.logo {
+  height: 253px;
+  margin: 1px;
+}
+
+.search-bar {
+  color: orangered;
+  width: 600px;
+  margin: auto;
+  margin-right: 22px;
+}
+h2 {
+  color: orangered;
+  font-size: 50px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman";
+  background-image: linear-gradient(to right, orangered, orange);
+  -webkit-background-clip: text;
+  color: transparent;
+  /*los siguientes comandos son para hacer un degrade,
+  para que el texto adopte el degrade,
+  y para que el texto sea trasparente*/
+}
+.link-pag {
+  list-style-type: none;
+  padding: 0;
+  /*no funciona, la idea es sacar los puntos y dejar mas espacio*/
+  /*creo que ya funciona*/
+}
+
+.links {
+  font-size: 30px;
+  text-decoration: none; /*esto es para sacarle el subrayado*/
+  color: orangered;
+}
