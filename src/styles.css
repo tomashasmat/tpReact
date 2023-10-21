@@ -1,0 +1,144 @@
+/* esto le agrega esilo al cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./imagenes/fondo.png');
+    background-size: cover; /* esto lo que hace es ajustar la imagen para que cubra toda la pantalla */
+   background-repeat: no-repeat; 
+      
+  }
+  
+ 
+  h1 {
+    text-align: center;
+    color: white;
+
+  }
+  
+  /* estilo para el area de ingreso de texto */
+  .input-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .input-area input[type="text"],
+  .input-area input[type="password"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-area button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .input-area button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* esto para la lista de publicaciones */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* estilos para cada elemento de publicación */
+  li {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* estilos para los botones de eliminar publicación y comentario */
+  li button {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #cc0000;
+  }
+  
+  /* estilos para el area de comentarios */
+  .comment-area {
+    margin-top: 10px;
+  }
+  
+  .comment-area input[type="text"] {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .comment-area button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .comment-area button:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="text"] {
+    /* estilos para el cuadro de entrada de texto */
+    width: 100%; /* ancho completo del contenedor */
+    padding: 10px; /* relleno interno */
+    font-size: 16px; /* tamaño de fuente */
+    border: 1px solid #ccc; /* bordee con color */
+    border-radius: 5px; /* bordes redondeados */
+  }
+  
+  input[type="text"]::placeholder {
+    /* aca use estilos para el placeholder */
+    font-style: italic; /* bueno le agregue la fuente para el placeholder */
+    color: #999; /* aca simplemente el color del texto del placeholder */
+  }
+  
+  .container {
+    display: flex; /* utiliza flexbox para centrar los elementos */
+    flex-direction: column; /* apila los elementos verticalmente */
+    align-items: center; /* centra horizontalmente los elementos */
+    justify-content: center; /* centra verticalmente los elementos */
+    min-height: 100vh; /* establece una altura mínima de la ventana gráfica */
+    text-align: center; /* centra el texto horizontalmente */
+    
+  }
+
+  .icon-container {
+    position: absolute;
+    top: 50px; /* ajusta la posición superior según tu preferencia */
+    left: 1px; /* ajusta la posición izquierda según tu preferencia */
+    z-index: 999; /* ajusta la superposición según tus necesidades */
+  }
+  
+  .icon-container img {
+    width: 350; /* ajusta el ancho de la imagen */
+    height: 300px; /* ajusta la altura de la imagen */
+    border: 1px solid #333; /* agrega un borde si lo deseas */
+    border-radius: 50%; /* esto puede redondear la imagen si es necesario */
+    /* otros estilos según tus preferencias */
+  }
+  
+  
+  
